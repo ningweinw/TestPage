@@ -1,6 +1,8 @@
 ---
 layout: default
 title:  "Article 2"
+category: "Case Study"
+sub-category: "Data"
 ---
 ## Article 2
 
