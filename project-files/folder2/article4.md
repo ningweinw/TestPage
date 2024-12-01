@@ -1,6 +1,8 @@
 ---
 layout: default
 title:  "Article 4"
+category: "Comic"
+sub-category: "Security"
 ---
 ## Article 4
 
