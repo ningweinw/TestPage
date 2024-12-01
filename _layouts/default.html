@@ -8,12 +8,125 @@
 <body>
   <div class="sidebar">
     <nav>
-      <ul>
-        {% for file in site.pages %}
-          <li>
-            <a href="/TestPage/{{ file.url }}">{{ file.title }}</a>
-          </li>
-        {% endfor %}
+      <ul style="list-style-type:none">
+        <li>Case Study
+          <ul style="list-style-type:disc">
+            <li>AI
+              <ol>
+                {% for file in site.pages %}
+                  {% if file.category == "Case Study" and file.sub-category == "AI" %}
+                    <li>
+                      <a href="/TestPage/{{ file.url }}">{{ file.title }}</a>
+                    </li>
+                  {% endif %}
+                {% endfor %}
+              </ol>
+            </li>
+            <li>Copilot
+              <ol>
+                {% for file in site.pages %}
+                  {% if file.category == "Case Study" and file.sub-category == "Copilot" %}
+                    <li>
+                      <a href="/TestPage/{{ file.url }}">{{ file.title }}</a>
+                    </li>
+                  {% endif %}
+                {% endfor %}
+              </ol>
+            </li>
+            <li>Data
+              <ol>
+                {% for file in site.pages %}
+                  {% if file.category == "Case Study" and file.sub-category == "Data" %}
+                    <li>
+                      <a href="/TestPage/{{ file.url }}">{{ file.title }}</a>
+                    </li>
+                  {% endif %}
+                {% endfor %}
+              </ol>
+            </li>
+            <li>Infra
+              <ol>
+                {% for file in site.pages %}
+                  {% if file.category == "Case Study" and file.sub-category == "Infra" %}
+                    <li>
+                      <a href="/TestPage/{{ file.url }}">{{ file.title }}</a>
+                    </li>
+                  {% endif %}
+                {% endfor %}
+              </ol>
+            </li>
+            <li>Security
+              <ol>
+                {% for file in site.pages %}
+                  {% if file.category == "Case Study" and file.sub-category == "Security" %}
+                    <li>
+                      <a href="/TestPage/{{ file.url }}">{{ file.title }}</a>
+                    </li>
+                  {% endif %}
+                {% endfor %}
+              </ol>
+            </li>
+          </ul>
+        </li>
+        <li>Comic
+          <ul style="list-style-type:disc">
+            <li>AI
+              <ol>
+                {% for file in site.pages %}
+                  {% if file.category == "Comic" and file.sub-category == "AI" %}
+                    <li>
+                      <a href="/TestPage/{{ file.url }}">{{ file.title }}</a>
+                    </li>
+                  {% endif %}
+                {% endfor %}
+              </ol>
+            </li>
+            <li>Copilot
+              <ol>
+                {% for file in site.pages %}
+                  {% if file.category == "Comic" and file.sub-category == "Copilot" %}
+                    <li>
+                      <a href="/TestPage/{{ file.url }}">{{ file.title }}</a>
+                    </li>
+                  {% endif %}
+                {% endfor %}
+              </ol>
+            </li>
+            <li>Data
+              <ol>
+                {% for file in site.pages %}
+                  {% if file.category == "Comic" and file.sub-category == "Data" %}
+                    <li>
+                      <a href="/TestPage/{{ file.url }}">{{ file.title }}</a>
+                    </li>
+                  {% endif %}
+                {% endfor %}
+              </ol>
+            </li>
+            <li>Infra
+              <ol>
+                {% for file in site.pages %}
+                  {% if file.category == "Comic" and file.sub-category == "Infra" %}
+                    <li>
+                      <a href="/TestPage/{{ file.url }}">{{ file.title }}</a>
+                    </li>
+                  {% endif %}
+                {% endfor %}
+              </ol>
+            </li>
+            <li>Security
+              <ol>
+                {% for file in site.pages %}
+                  {% if file.category == "Comic" and file.sub-category == "Security" %}
+                    <li>
+                      <a href="/TestPage/{{ file.url }}">{{ file.title }}</a>
+                    </li>
+                  {% endif %}
+                {% endfor %}
+              </ol>
+            </li>
+          </ul>
+        </li>
       </ul>
     </nav>
   </div>
