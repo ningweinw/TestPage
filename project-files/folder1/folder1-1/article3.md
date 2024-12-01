@@ -1,6 +1,8 @@
 ---
 layout: default
 title:  "Article 3"
+category: "Case Study"
+sub-category: "Infra"
 ---
 ## Article 3
 
