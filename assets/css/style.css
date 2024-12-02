@@ -24,3 +24,6 @@ body {
     background-color: lightblue;
     cursor: ew-resize;
 }
+ul, ol {
+    padding-left: 20px;
+}
