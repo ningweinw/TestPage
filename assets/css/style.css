@@ -1,14 +1,26 @@
 body {
     display: flex;
-    flex-direction: row;
-  }
-  .sidebar {
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    display: flex;
+    width: 100%;
+}
+.resizable {
+    overflow: auto;
+}
+#leftDiv {
     width: 20%;
-    background: #f4f4f4;
-    padding: 10px;
-  }
-  .content {
+    padding: 5px;
+    background-color: lightblue;
+}
+#rightDiv {
     width: 80%;
-    padding: 10px;
-  }
-  
+    padding: 5px;
+}
+.divider {
+    width: 2px;
+    background-color: #ccc;
+    cursor: ew-resize;
+}
