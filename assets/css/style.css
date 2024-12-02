@@ -20,7 +20,7 @@ body {
     padding: 5px;
 }
 .divider {
-    width: 2px;
-    background-color: #ccc;
+    width: 3px;
+    background-color: lightblue;
     cursor: ew-resize;
 }
